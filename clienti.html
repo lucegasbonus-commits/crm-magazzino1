@@ -1,18 +1,15 @@
+
 <!DOCTYPE html>
 <html>
+<head>
+  <title>Clienti</title>
+</head>
 <body>
-
-<h1>Clienti</h1>
-
-<input type="file">
-<button>IMPORTA</button>
-
-<br><br>
-
-<button>ESPORTA</button>
-
-<br><br>
-<a href="index.html">Dashboard</a>
-
+  <h1>Clienti</h1>
+  <form action="/import-clienti" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" required>
+    <button>Importa</button>
+  </form>
+  <a href="/">Dashboard</a>
 </body>
 </html>
